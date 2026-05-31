@@ -1,0 +1,26 @@
+# Top-level / cross-cutting ignores
+# server/ and client/ each ship their own .gitignore for stack-specific rules.
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Env / secrets (defense in depth)
+.env
+.env.*
+!.env.example
+
+# Logs / temp
+*.log
+*.tmp
+
+# Local data dumps
+*.sql
+*.tar.gz
+backups/
+data/

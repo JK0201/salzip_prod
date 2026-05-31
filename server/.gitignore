@@ -1,0 +1,47 @@
+# env / secrets
+.env
+.env.*
+!.env.example
+.envrc
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg
+*.egg-info/
+
+# Build
+dist/
+build/
+
+# Cache
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Coverage
+.coverage
+coverage.xml
+coverage.json
+htmlcov/
+
+# Logs
+*.log
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Local-only data / dumps
+data/
+backups/
+*.sql
+*.tar.gz
+
+# Deploy artifacts
+deploy.sh
